@@ -2,8 +2,7 @@ import 'reflect-metadata';
 import { PrismaClient } from '@prisma/client';
 import { ApolloServer } from 'apollo-server';
 import { resolvers } from "./generated/typegraphql-prisma";
-import { ApolloServerPluginLandingPageLocalDefault
-} from "apollo-server-core";
+import { ApolloServerPluginLandingPageLocalDefault } from "apollo-server-core";
 import * as tq from 'type-graphql';
 
 const prisma = new PrismaClient()
