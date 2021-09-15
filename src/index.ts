@@ -23,7 +23,8 @@ const app = async () => {
   new ApolloServer({ 
     schema, 
     context, 
-    plugins: [ApolloServerPluginLandingPageLocalDefault({ footer: false })],
+    plugins: [ApolloServerPluginLandingPageLocalDefault({ footer: false})],
+    introspection: true
   }).listen({ port: PORT }, () =>
     console.log(`app running on port ${PORT}`)
   )
