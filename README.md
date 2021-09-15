@@ -1,8 +1,8 @@
 # GraphQL Server with Prisma Example
 
-This example shows how to implement a GraphQL server with Typescript based on [Prisma Client](ht tps://www.prisma.io/docs/concepts/components/prisma-client), [apollo-server](https://www.apollographql.com/docs/apollo-server). It is based on PostgreSQL hosted in Heroku.
+This example shows how to implement a GraphQL server with Typescript based on [Prisma Client](https://www.prisma.io/docs/concepts/components/prisma-client), [apollo-server](https://www.apollographql.com/docs/apollo-server). It is based on PostgreSQL hosted in Heroku.
 
-To view the app: visit: [https://www.apollographql.com/docs/apollo-server](https://www.apollographql.com/docs/apollo-server) for the api and [https://nodejs-application-client.herokuapp.com/](https://nodejs-application-client.herokuapp.com/) for the frontend.
+To view the app: visit: [https://nodejs-application-api.herokuapp.com/](https://nodejs-application-api.herokuapp.com/) for the api and [https://nodejs-application-client.herokuapp.com/](https://nodejs-application-client.herokuapp.com/) for the frontend.
 
 ## Getting started - Server API
 
