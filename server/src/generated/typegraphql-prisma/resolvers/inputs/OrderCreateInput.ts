@@ -15,9 +15,9 @@ export class OrderCreateInput {
   id?: string | undefined;
 
   @TypeGraphQL.Field(_type => Date, {
-    nullable: false
+    nullable: true
   })
-  createdAt!: Date;
+  createdAt?: Date | undefined;
 
   @TypeGraphQL.Field(_type => Date, {
     nullable: true
