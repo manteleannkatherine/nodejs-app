@@ -25,7 +25,7 @@ const app = async () => {
     context, 
     plugins: [
       // Install a landing page plugin based on NODE_ENV
-      process.env.NODE_ENV === 'production'
+      process.env.NODE_ENV === 'development'
         ? ApolloServerPluginLandingPageGraphQLPlayground()
         : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
     ],
