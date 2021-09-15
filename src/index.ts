@@ -23,12 +23,7 @@ const app = async () => {
   new ApolloServer({ 
     schema, 
     context, 
-    plugins: [
-      // Install a landing page plugin based on NODE_ENV
-      process.env.NODE_ENV === 'development'
-        ? ApolloServerPluginLandingPageGraphQLPlayground()
-        : ApolloServerPluginLandingPageLocalDefault({ footer: false }),
-    ],
+    plugins: [ApolloServerPluginLandingPageLocalDefault({ footer: false })],
   }).listen({ port: PORT }, () =>
     console.log(`app running on port ${PORT}`)
   )
